@@ -1,0 +1,25 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@zohodesk/portal-api-creator": "1.0.16",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "7.2.8",
+    "redux": "4.2.0",
+    "redux-logger": "4.0.0",
+    "redux-thunk": "2.4.1",
+    "selectn": "^1.1.2",
+    "simple-normalizr": "1.2.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}

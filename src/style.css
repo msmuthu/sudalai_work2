@@ -1,0 +1,53 @@
+h1,
+p {
+  font-family: Lato;
+}
+.box {
+  /* width: 400px; */
+  /* height: 600px; */
+  /* border: 1px solid red; */
+  overflow-y: auto;
+
+  flex: 1;
+  min-width: 0;
+}
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-color: #dfdfdf;
+  height: 300px;
+}
+.check {
+  position: absolute;
+  height: 2px;
+  background-color: aqua;
+  bottom: 90px;
+  left: 0;
+  right: 0;
+}
+.header {
+  height: 50px;
+  background-color: red;
+  transition: all 0.3 ease;
+}
+.headerExpand {
+  height: 90px;
+}
+.breadcrumb {
+  animation-name: slideDown;
+  animation-duration: 0.4s;
+  height: 50px;
+}
+@keyframes slideDown {
+  from {
+    height: 0;
+  }
+  to {
+    height: 50px;
+  }
+}
+.footer {
+  height: 50px;
+  background-color: green;
+}
